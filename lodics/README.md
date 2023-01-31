@@ -4,6 +4,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+npm cache clear --force
+
+npm install next react react-dom
+
+
 ```bash
 npm run dev
 # or
