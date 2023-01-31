@@ -6,8 +6,8 @@ export const homeKorean = {
 };
 
 export const homeEnglish = {
-  cardBusinessDescription: `LoDiCS's Business Areas`,
-  cardPsDescription: `Technologles in Prossession by LoDiCS`,
-  cardRecruitmentDescription: `Positions Available at LoDiCS`,
+  cardBusinessDescription: `LoDiC Business Areas`,
+  cardPsDescription: `Technologles in Prossession by LoDiC`,
+  cardRecruitmentDescription: `Positions Available at LoDiC`,
   more: `MORE`,
 };

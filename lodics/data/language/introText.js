@@ -8,9 +8,9 @@ export const introTextKorean = {
 
 export const introTextEnglish = {
   firstIntrofirstLine: `Leaders of GEOINT`,
-  firstIntroSecondLine: `Based on experience in doing business in special fields, LoDiCS is doing business on the development of sensor-based
+  firstIntroSecondLine: `Based on experience in doing business in special fields, LoDiC is doing business on the development of sensor-based
   spatial information application solutions and on the establishment of GIS solution markets and GIS DB’s.`,
   secondIntroFirstLine: `Corporation Specialized in GEOINT`,
-  secondIntroSecondLine: `LoDiCS is a small but strong corporation leading the creation and
+  secondIntroSecondLine: `LoDiC is a small but strong corporation leading the creation and
   expansion of GEOINT markets in both public and private sectors.`,
 };

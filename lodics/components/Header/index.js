@@ -84,11 +84,11 @@ export default function Header({ theme, page }) {
   return (
     <Container>
       <InnerContainer $theme={theme}>
-        <Link href='/'>
+        {/* <Link href='/'>
           <a>
             <img src={theme === 'white' ? 'img/logo_w.png' : 'img/logo_b.png'} alt='로딕스 로고' />
           </a>
-        </Link>
+        </Link> */}
         <nav>
           {showToggleNav ? (
             <React.Fragment>
@@ -127,7 +127,7 @@ export default function Header({ theme, page }) {
                     label='Language'
                     onChange={onChangeLanguage}
                   >
-                    <MenuItem value='korea'>Korea | 한국어</MenuItem>
+                    {/* <MenuItem value='korea'>Korea | 한국어</MenuItem> */}
                     <MenuItem value='global'>Global | English</MenuItem>
                   </Select>
                 </FormControl>

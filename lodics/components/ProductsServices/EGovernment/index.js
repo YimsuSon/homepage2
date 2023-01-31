@@ -9,7 +9,7 @@ export default function EGovernment() {
   const { language } = useContext(GlobalStateContext);
 
   //현재 언어 Check
-  const currentLanguage = language === 'korea' ? eGovernmentKorean : eGovernmentEnglish;
+  const currentLanguage = language === 'korea' ? eGovernmentEnglish : eGovernmentEnglish;
 
   //전자정부사업 개발 화면 구성 map
   const fillContents = eGovernmentList => {

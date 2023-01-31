@@ -14,7 +14,7 @@ export default function recruitment() {
   return (
     <React.Fragment>
       <Head>
-        <title>LoDiCS | Recruit</title>
+        <title>LoDiC | Recruit</title>
       </Head>
       <AppLayout theme='black' page='Recruit' value='recruitment'>
         <PageContainer>

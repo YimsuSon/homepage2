@@ -17,7 +17,7 @@ export const processKorean = {
       content: [
         '채용분야: 전략기획직, 연구개발직, GIS 기반 소프트웨어개발, 웹/서버개발 (신입 및 경력)',
         '채용일정: 상시모집',
-        '지원방법: E-mail 제출 (lodics_recruit@lodics.com)',
+        '지원방법: E-mail 제출 (lodic_recruit@lodic.com)',
       ],
     },
     {

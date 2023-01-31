@@ -77,7 +77,7 @@ export const GoalsVisionsEnglish = {
   geointProcessThirdTitle: 'Process for processing GEOINT data',
   geointProcessImg: 'img/business/biz01_03_eng.png',
   eGovernmentTitle: 'Consultancy on E-Government Development',
-  eGovernmentContent: `LoDiCS is providing consultancy on the whole range of the works related to the development of e-government including establishment of the e-government development policy and strategy at the government level, planning for, and implementation of the projects of, each ministry, technology development, financing, and etc., on the basis of the Korean model.
+  eGovernmentContent: `LoDiC is providing consultancy on the whole range of the works related to the development of e-government including establishment of the e-government development policy and strategy at the government level, planning for, and implementation of the projects of, each ministry, technology development, financing, and etc., on the basis of the Korean model.
   
   To help our customers have an overall understanding on the management of e-government development, we published a book in 2016 which is titled “Strategies for Development of E-Government & Promotion of ICT Industry.`,
   eGovernmentSemiTitle: 'Status on Development of E-Government Model',

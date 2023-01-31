@@ -48,7 +48,7 @@ export const ceoGreetingEnglish = {
   content: () => (
     <>
       <p>
-        Founded in 2007 under the name "Leaders of Digital Convergence System", LoDiCS has grown into a company owning
+        Founded in 2007 under the name "Leaders of Digital Convergence System", LoDiC has grown into a company owning
         proprietary expertise.
       </p>
       <br />
@@ -73,7 +73,7 @@ export const ceoGreetingEnglish = {
       <br />
       <p>
         In the future we will continue to realize big dreams together with our customers through sustained development
-        and growth of LoDiCS.
+        and growth of LoDiC.
       </p>
     </>
   ),

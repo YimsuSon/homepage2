@@ -13,7 +13,7 @@ export default function productsServices() {
   const [selectedComponent, setSelectedComponent] = useState(<KeyTechnology />);
 
   const subSelectList =
-    language === 'korea' ? productsServicesSubSelectListKorean : productsServicesSubSelectListEnglish;
+    language === 'korea' ? productsServicesSubSelectListEnglish : productsServicesSubSelectListEnglish;
 
   useEffect(() => {
     if (subSelectedComponent === 'eGovernment') setSelectedComponent(<EGovernment />);
@@ -31,7 +31,7 @@ export default function productsServices() {
   return (
     <React.Fragment>
       <Head>
-        <title>LoDiCS | Products & Services</title>
+        <title>LoDiC | Products & Services</title>
       </Head>
       <AppLayout theme='black' page='Products & Services' value='productsServices' subSelectList={subSelectList}>
         <PageContainer> {selectedComponent} </PageContainer>

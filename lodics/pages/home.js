@@ -66,7 +66,7 @@ export const CardContainer = styled.div`
 export default function Home() {
   const { setSelectedMenu, language } = useContext(GlobalStateContext);
 
-  const currentLanguage = language === 'korea' ? homeKorean : homeEnglish;
+  const currentLanguage = language === 'korea' ? homeEnglish : homeEnglish;
 
   useEffect(() => {
     setSelectedMenu('');

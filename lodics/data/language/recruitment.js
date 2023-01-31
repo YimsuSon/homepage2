@@ -13,7 +13,7 @@ export const recruitmentEnglish = {
   pageTitle: 'Employment Information',
   headLine: () => (
     <>
-      "We are waiting for talented people to grow up with LoDiCS toward a new tomorrow
+      "We are waiting for talented people to grow up with LoDiC toward a new tomorrow
       <br />
       with <b>a passion</b> and <b>a challenging spirit that will not tire</b>."{' '}
     </>

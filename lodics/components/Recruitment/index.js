@@ -13,7 +13,7 @@ export default function Recruitment() {
   const { language } = useContext(GlobalStateContext);
 
   //현재 언어 Check
-  const currentLanguage = language === 'korea' ? recruitmentKorean : recruitmentEnglish;
+  const currentLanguage = language === 'korea' ? recruitmentEnglish : recruitmentEnglish;
 
   return (
     <>

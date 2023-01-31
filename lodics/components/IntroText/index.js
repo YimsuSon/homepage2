@@ -23,7 +23,7 @@ export default function IntroText() {
   const [introText, setIntroText] = useState(1);
   const { language } = useContext(GlobalStateContext);
 
-  const currentLanguage = language === 'korea' ? introTextKorean : introTextEnglish;
+  const currentLanguage = language === 'korea' ? introTextEnglish : introTextEnglish;
 
   // 10초마다 IntroText 바뀜 / firstInrto → secondIntro
   useEffect(() => {

@@ -33,7 +33,7 @@ const createImgCardElement = (img, text) => (
 export default function GoalsVisions() {
   const { language } = useContext(GlobalStateContext);
 
-  const currentLanguage = language === 'korea' ? GoalsVisionsKorean : GoalsVisionsEnglish;
+  const currentLanguage = language === 'korea' ? GoalsVisionsEnglish : GoalsVisionsEnglish;
 
   return (
     <React.Fragment>

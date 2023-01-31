@@ -6,8 +6,8 @@ export const footerKorean = {
 };
 
 export const footerEnglish = {
-  company: `Lodics Co, Ltd`,
-  ceo: `President/CEO : James Lee Seung Woo/PhD.`,
-  address: `(04790) 3F Taeyang Bldg, 6-1 Sangwon 4-gil, Seongdong-gu, Seoul, KOREA`,
-  fax: `02.403.1108`,
+  company: `Lodic Co, Ltd`,
+  ceo: `President/CEO : James Lee Sung Woo.`,
+  address: `(04790) 1 Sangwon 4-gil, Seongdong-gu, Seoul, KOREA`,
+  fax: `02.603.1109`,
 };

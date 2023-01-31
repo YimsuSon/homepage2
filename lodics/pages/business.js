@@ -28,7 +28,7 @@ export default function business() {
   return (
     <React.Fragment>
       <Head>
-        <title>LoDiCS | Business</title>
+        <title>LoDiC | Business</title>
       </Head>
       <AppLayout theme='black' page='Business' value='business' subSelectList={subSelectList}>
         <PageContainer>{selectedComponent}</PageContainer>

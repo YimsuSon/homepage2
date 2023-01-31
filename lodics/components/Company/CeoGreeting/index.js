@@ -10,7 +10,7 @@ export default function CeoGreeting() {
   const [isMobile, setIsMobile] = useState(false);
   const { language } = useContext(GlobalStateContext);
 
-  const currentLanguage = language === 'korea' ? ceoGreetingKorean : ceoGreetingEnglish;
+  const currentLanguage = language === 'korea' ? ceoGreetingEnglish : ceoGreetingEnglish;
 
   // viewport 사이즈에 따라 mobile 환경 확인
   const onResize = () => {

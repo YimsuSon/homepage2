@@ -8,7 +8,8 @@ import { Container } from './styles';
 export default function Footer() {
   const { language } = useContext(GlobalStateContext);
 
-  const currentLanguage = language === 'korea' ? footerKorean : footerEnglish;
+  // const currentLanguage = language === 'korea' ? footerKorean : footerEnglish;
+ const currentLanguage = language === 'korea' ? footerEnglish : footerEnglish;
 
   return (
     <Container>
@@ -27,7 +28,7 @@ export default function Footer() {
         <li>
           <span>TEL : </span>
           <a href='tel:02.403.1160'>
-            <span> 02.403.1160</span>
+            <span> 02.403.1190</span>
           </a>
         </li>
         <li>
@@ -36,14 +37,14 @@ export default function Footer() {
         </li>
         <li>
           <span>Email : </span>
-          <a href='mailto:lodics_recruit@lodics.com'>
-            <span> lodics_recruit@lodics.com</span>
+          <a href='mailto:lodic_recruit@lodic.com'>
+            <span> lodic_recruit@lodic.com</span>
           </a>
         </li>
       </ul>
       <ul>
         <li>
-          <span>COPYRIGHT © 2018 LoDiCS. CO., LTD. ALL RIGHTS RESERVED.</span>
+          <span>COPYRIGHT © 2018 LoDiC. CO., LTD. ALL RIGHTS RESERVED.</span>
         </li>
       </ul>
     </Container>
